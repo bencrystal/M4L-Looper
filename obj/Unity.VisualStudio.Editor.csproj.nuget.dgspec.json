@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bencrystal/Documents/GitHub/M4L Looper/Unity.VisualStudio.Editor.csproj": {}
+  },
+  "projects": {
+    "/Users/bencrystal/Documents/GitHub/M4L Looper/Unity.VisualStudio.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bencrystal/Documents/GitHub/M4L Looper/Unity.VisualStudio.Editor.csproj",
+        "projectName": "Unity.VisualStudio.Editor",
+        "projectPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/Unity.VisualStudio.Editor.csproj",
+        "packagesPath": "/Users/bencrystal/.nuget/packages/",
+        "outputPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bencrystal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEditor.TestRunner.csproj"
+              },
+              "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEditor.TestRunner.csproj",
+        "packagesPath": "/Users/bencrystal/.nuget/packages/",
+        "outputPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bencrystal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEngine.TestRunner.csproj",
+        "packagesPath": "/Users/bencrystal/.nuget/packages/",
+        "outputPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bencrystal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
