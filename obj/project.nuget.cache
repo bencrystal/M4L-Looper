@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pnp2aDpRx8PZW3Jd2umnBLmeXKfcUNeacfJs54wgp3YrGLWout3o4Y9QG/szZAfNx+tLR1AWzUPl0lDtqUZrSQ==",
+  "dgSpecHash": "73wDO3zmwr3POLM3I4HiHarvdm3t9nh3fuWPn5k6eXiB7oKrZffX9fAy2CSl6Bwlyu2QVWCWOCrEujOho5RryA==",
   "success": true,
-  "projectFilePath": "/Users/bencrystal/Documents/GitHub/M4L Looper/Unity.VisualStudio.Editor.csproj",
+  "projectFilePath": "/Users/bencrystal/Documents/GitHub/M4L Looper/Unity.VisualScripting.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

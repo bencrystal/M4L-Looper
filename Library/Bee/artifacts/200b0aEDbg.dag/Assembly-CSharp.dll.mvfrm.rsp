@@ -19,8 +19,16 @@ Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_CF3C6D3
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.Editor.ref.dll_482B82CBBB34CB64.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_9E96D9AD02BBDD1D.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_6E6C08999B715408.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.XR.Management.Editor.ref.dll_1117D83C60380FC7.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.XR.Management.ref.dll_12689334EEAEEE8A.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.XR.Oculus.Editor.ref.dll_C90202E53708D6E1.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.XR.Oculus.ref.dll_8EF39E93B7C5FDD0.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEditor.SpatialTracking.ref.dll_4E91615D7EEE8CAB.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_C36BD85A8E0AE6AA.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEditor.XR.LegacyInputHelpers.ref.dll_A4A7D901AF28D958.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEngine.SpatialTracking.ref.dll_DAD25384F7E70FD0.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_7FD1AEB5942D0F15.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEngine.XR.LegacyInputHelpers.ref.dll_65376DB7EA6E2C5D.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_645D3A74D373A0A7.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Android.GradleProject.dll_48F4BC941489D67E.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_9C206A0C63F45E85.mvfrm

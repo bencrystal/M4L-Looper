@@ -1,49 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {
-      "UnityEditor.TestRunner/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
-        "dependencies": {
-          "UnityEngine.TestRunner": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/UnityEditor.TestRunner.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UnityEditor.TestRunner.dll": {}
-        }
-      },
-      "UnityEngine.TestRunner/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
-        "compile": {
-          "bin/placeholder/UnityEngine.TestRunner.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UnityEngine.TestRunner.dll": {}
-        }
-      }
-    }
+    ".NETStandard,Version=v2.1": {}
   },
-  "libraries": {
-    "UnityEditor.TestRunner/1.0.0": {
-      "type": "project",
-      "path": "UnityEditor.TestRunner.csproj",
-      "msbuildProject": "UnityEditor.TestRunner.csproj"
-    },
-    "UnityEngine.TestRunner/1.0.0": {
-      "type": "project",
-      "path": "UnityEngine.TestRunner.csproj",
-      "msbuildProject": "UnityEngine.TestRunner.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": [
-      "UnityEditor.TestRunner >= 1.0.0",
-      "UnityEngine.TestRunner >= 1.0.0"
-    ]
+    ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
     "/Users/bencrystal/.nuget/packages/": {}
@@ -51,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bencrystal/Documents/GitHub/M4L Looper/Unity.VisualStudio.Editor.csproj",
-      "projectName": "Unity.VisualStudio.Editor",
-      "projectPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/Unity.VisualStudio.Editor.csproj",
+      "projectUniqueName": "/Users/bencrystal/Documents/GitHub/M4L Looper/Unity.VisualScripting.Core.csproj",
+      "projectName": "Unity.VisualScripting.Core",
+      "projectPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/Unity.VisualScripting.Core.csproj",
       "packagesPath": "/Users/bencrystal/.nuget/packages/",
       "outputPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/obj/",
       "projectStyle": "PackageReference",
@@ -69,14 +31,7 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {
-            "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEditor.TestRunner.csproj": {
-              "projectPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEditor.TestRunner.csproj"
-            },
-            "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEngine.TestRunner.csproj": {
-              "projectPath": "/Users/bencrystal/Documents/GitHub/M4L Looper/UnityEngine.TestRunner.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
