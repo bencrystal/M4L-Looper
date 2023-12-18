@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ARMouseMenuScene.unity
-    guid: b1fcb8f30a853f3419005f244a812466
+    path: Assets/Scenes/ARTestScene.unity
+    guid: 3d7e67070f2144fbba9c4304194459d7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 641128677d9a54aa883417e5d4ef3e8d, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: a8d23f38c6598774b87e1b56da14498a, type: 2}

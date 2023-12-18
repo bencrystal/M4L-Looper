@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53461
+52850
 Successfully changed project path to: /Users/bencrystal/Documents/GitHub/M4L Looper
 /Users/bencrystal/Documents/GitHub/M4L Looper
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,13 +56,13 @@ Successfully changed project path to: /Users/bencrystal/Documents/GitHub/M4L Loo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8314757248] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 3008687908 [EditorId] 3008687908 [Version] 1048832 [Id] OSXEditor(0,Bens-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8314757248] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 2120497159 [EditorId] 2120497159 [Version] 1048832 [Id] OSXEditor(0,Bens-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8314757248] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 3008687908 [EditorId] 3008687908 [Version] 1048832 [Id] OSXEditor(0,Bens-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8314757248] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 2120497159 [EditorId] 2120497159 [Version] 1048832 [Id] OSXEditor(0,Bens-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 11.80 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 3.67 ms.
+Refreshing native plugins compatible for Editor in 6.95 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 3.56 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/bencrystal/Documents/GitHub/M4L Looper/Assets
@@ -76,58 +76,58 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56533
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56309
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
-Registered in 0.002621 seconds.
-- Loaded All Assemblies, in  0.193 seconds
+Registered in 0.001530 seconds.
+- Loaded All Assemblies, in  0.182 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for VisionOS target not found
-objc[7533]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x16e27c5d8) and /Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/iOSSupport/arm64/UnityEditor.iOS.Native.dylib (0x16e3bc5d8). One of the two will be used. Which one is undefined.
+objc[63309]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x2a1eac5d8) and /Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/iOSSupport/arm64/UnityEditor.iOS.Native.dylib (0x2a21605d8). One of the two will be used. Which one is undefined.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 62 ms
+Android Extension - Scanning For ADB Devices 58 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.273 seconds
-Domain Reload Profiling: 466ms
-	BeginReloadAssembly (50ms)
+- Finished resetting the current domain, in  0.266 seconds
+Domain Reload Profiling: 448ms
+	BeginReloadAssembly (39ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (19ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (89ms)
-		LoadAssemblies (50ms)
+	LoadAllAssembliesAndSetupDomain (88ms)
+		LoadAssemblies (38ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (88ms)
-			TypeCache.Refresh (87ms)
-				TypeCache.ScanAssembly (79ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (78ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (273ms)
+	FinalizeReload (266ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (238ms)
+		SetupLoadedEditorAssemblies (229ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (170ms)
+			InitializePlatformSupportModulesInManaged (159ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
 			ProcessInitializeOnLoadAttributes (44ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -135,8 +135,8 @@ Domain Reload Profiling: 466ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.430 seconds
-Refreshing native plugins compatible for Editor in 5.34 ms, found 11 plugins.
+- Loaded All Assemblies, in  0.412 seconds
+Refreshing native plugins compatible for Editor in 4.85 ms, found 11 plugins.
 Native extension for VisionOS target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -155,181 +155,49 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.508 seconds
-Domain Reload Profiling: 939ms
-	BeginReloadAssembly (68ms)
+- Finished resetting the current domain, in  0.524 seconds
+Domain Reload Profiling: 936ms
+	BeginReloadAssembly (67ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (311ms)
-		LoadAssemblies (172ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (144ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (126ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (509ms)
+	FinalizeReload (524ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (378ms)
+		SetupLoadedEditorAssemblies (399ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (225ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.83 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-Unloading 6684 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 136 unused Assets / (2.0 MB). Loaded Objects now: 7160.
-Memory consumption went from 264.8 MB to 262.8 MB.
-Total: 3.479166 ms (FindLiveObjects: 0.184208 ms CreateObjectMapping: 0.105042 ms MarkObjects: 2.580125 ms  DeleteObjects: 0.609334 ms)
+Refreshing native plugins compatible for Editor in 4.51 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 6686 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 136 unused Assets / (2.1 MB). Loaded Objects now: 7163.
+Memory consumption went from 266.4 MB to 264.4 MB.
+Total: 3.444000 ms (FindLiveObjects: 0.163792 ms CreateObjectMapping: 0.106292 ms MarkObjects: 2.573417 ms  DeleteObjects: 0.600041 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1358846.641887 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(a966f53bb6ba84f23bacb45142c86285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(a966f53bb6ba84f23bacb45142c86285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bcbad52eb3c98932d4b024acc1e269') in 0.001099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.68 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9 unused Assets / (2.1 MB). Loaded Objects now: 7160.
-Memory consumption went from 133.2 MB to 131.1 MB.
-Total: 3.693709 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.123917 ms MarkObjects: 2.727667 ms  DeleteObjects: 0.609917 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 630.695049 seconds.
-  path: Assets/Oculus Hands/Animations/l_hand_default_anim.fbx
-  artifactKey: Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus Hands/Animations/l_hand_default_anim.fbx using Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba2d32fb3442429353e8452694dc439') in 0.021668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Oculus Hands/Animations/r_hand_default_anim.fbx
-  artifactKey: Guid(b6c38558987444240b3b3950e4450b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus Hands/Animations/r_hand_default_anim.fbx using Guid(b6c38558987444240b3b3950e4450b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7776b256bc47d0fda4f59eb2340580cb') in 0.001828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.5.2/XR Device Simulator/XR Device Simulator Controls.inputactions
-  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e4cffeb0e0d4cdc79a28d008b26bc1') in 0.004303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Oculus Hands/Animations/r_hand_pinch_anim.fbx
-  artifactKey: Guid(165871bb4fa915847973b6955c7a670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus Hands/Animations/r_hand_pinch_anim.fbx using Guid(165871bb4fa915847973b6955c7a670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11237fade3f915ef6827307f1feceec') in 0.001712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Oculus Hands/Animations/l_hand_pinch_anim.fbx
-  artifactKey: Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus Hands/Animations/l_hand_pinch_anim.fbx using Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0192a8d44f6624674efbe0b1e6ef18') in 0.001614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Import Request.
-  Time since last request: 15.535502 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/ARDemoSceneAssets/Materials/InteractableMat.mat
-  artifactKey: Guid(405529b091e884f32ad1cdb05c634ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/ARDemoSceneAssets/Materials/InteractableMat.mat using Guid(405529b091e884f32ad1cdb05c634ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82151e5068c8c92030d934a4627181a') in 0.857940 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Hands Interaction Demo/HandsDemoSceneAssets/Models/VirtualTabletop.fbx
-  artifactKey: Guid(365907f61b8b39a48aab9aacd4588f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Hands Interaction Demo/HandsDemoSceneAssets/Models/VirtualTabletop.fbx using Guid(365907f61b8b39a48aab9aacd4588f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daac9197d68b72fb5f860c46f896221') in 0.809499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 73.961367 seconds.
-  path: Assets/Samples/XR Hands/1.3.0/HandVisualizer/Prefabs/Left Hand Tracking.prefab
-  artifactKey: Guid(b3ed8a0a703ebd34a9e44ed3d9f1fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.3.0/HandVisualizer/Prefabs/Left Hand Tracking.prefab using Guid(b3ed8a0a703ebd34a9e44ed3d9f1fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e916af123b1bfd9860b8eaba4ccbe25') in 0.536646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 127
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Samples/XR Hands/1.3.0/HandVisualizer/Prefabs/VelocityPrefab.prefab
-  artifactKey: Guid(629fd7882ec6bfc499a5fcf20035282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.3.0/HandVisualizer/Prefabs/VelocityPrefab.prefab using Guid(629fd7882ec6bfc499a5fcf20035282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27374f11a4e0a1868d1c1f1941072a6d') in 0.034366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 29.888901 seconds.
-  path: Assets/Samples/XR Hands/1.3.0/HandVisualizer/Prefabs/Left Hand Tracking.prefab
-  artifactKey: Guid(b3ed8a0a703ebd34a9e44ed3d9f1fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.3.0/HandVisualizer/Prefabs/Left Hand Tracking.prefab using Guid(b3ed8a0a703ebd34a9e44ed3d9f1fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d042acbfa1b7e19eb4aad57fc1b02fb') in 0.010987 seconds
-Number of updated asset objects reloaded before import = 62
-Number of asset objects unloaded after import = 127
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.00 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10 unused Assets / (2.1 MB). Loaded Objects now: 7264.
-Memory consumption went from 131.0 MB to 128.9 MB.
-Total: 3.863542 ms (FindLiveObjects: 0.198333 ms CreateObjectMapping: 0.103667 ms MarkObjects: 2.975791 ms  DeleteObjects: 0.585333 ms)
-
-Prepare: number of updated asset objects reloaded= 74
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
@@ -345,12 +213,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 5.40 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 4.59 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.18 ms.
 Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9 unused Assets / (2.0 MB). Loaded Objects now: 7264.
-Memory consumption went from 130.7 MB to 128.8 MB.
-Total: 3.547583 ms (FindLiveObjects: 0.161000 ms CreateObjectMapping: 0.085625 ms MarkObjects: 2.866167 ms  DeleteObjects: 0.434375 ms)
+Unloading 9 unused Assets / (2.0 MB). Loaded Objects now: 7163.
+Memory consumption went from 135.1 MB to 133.1 MB.
+Total: 3.019959 ms (FindLiveObjects: 0.164667 ms CreateObjectMapping: 0.096500 ms MarkObjects: 2.253000 ms  DeleteObjects: 0.505417 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -366,28 +234,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 89.909742 seconds.
-  path: Assets/Samples/XR Hands/1.3.0/HandVisualizer/Prefabs/Left Hand Tracking.prefab
-  artifactKey: Guid(b3ed8a0a703ebd34a9e44ed3d9f1fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.3.0/HandVisualizer/Prefabs/Left Hand Tracking.prefab using Guid(b3ed8a0a703ebd34a9e44ed3d9f1fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5db666f1e1343b1c326f3869f0161c0') in 0.381607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 127
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Samples/XR Hands/1.3.0/HandVisualizer/Prefabs/Right Hand Tracking.prefab
-  artifactKey: Guid(3f7511fbc40ae7a4b89c3298a3de199d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.3.0/HandVisualizer/Prefabs/Right Hand Tracking.prefab using Guid(3f7511fbc40ae7a4b89c3298a3de199d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc3725c66d818383a8dd2e98f65717f') in 0.007678 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 127
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x2ba887000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.370 seconds
-Refreshing native plugins compatible for Editor in 5.30 ms, found 11 plugins.
+Thread 0x2ba08b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.266 seconds
+Refreshing native plugins compatible for Editor in 4.84 ms, found 11 plugins.
 Native extension for VisionOS target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -402,69 +254,121 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.405 seconds
-Domain Reload Profiling: 1775ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.591 seconds
+Domain Reload Profiling: 857ms
+	BeginReloadAssembly (90ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (38ms)
 	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (13ms)
-	LoadAllAssembliesAndSetupDomain (235ms)
-		LoadAssemblies (152ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (144ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (109ms)
-			TypeCache.Refresh (85ms)
-				TypeCache.ScanAssembly (75ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1405ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (591ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (669ms)
+		SetupLoadedEditorAssemblies (345ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (348ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (188ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 5.08 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 6544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (2.0 MB). Loaded Objects now: 7168.
+Memory consumption went from 246.4 MB to 244.4 MB.
+Total: 3.282500 ms (FindLiveObjects: 0.170125 ms CreateObjectMapping: 0.110625 ms MarkObjects: 2.441500 ms  DeleteObjects: 0.559750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17fb87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.266 seconds
+Refreshing native plugins compatible for Editor in 4.86 ms, found 11 plugins.
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.604 seconds
+Domain Reload Profiling: 869ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (604ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 5.45 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
-Unloading 6544 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (2.0 MB). Loaded Objects now: 7248.
-Memory consumption went from 244.5 MB to 242.5 MB.
-Total: 3.644500 ms (FindLiveObjects: 0.225667 ms CreateObjectMapping: 0.108833 ms MarkObjects: 2.653000 ms  DeleteObjects: 0.656541 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 16.32 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 5.48 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.19 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9 unused Assets / (2.1 MB). Loaded Objects now: 7248.
-Memory consumption went from 143.3 MB to 141.2 MB.
-Total: 3.434333 ms (FindLiveObjects: 0.193125 ms CreateObjectMapping: 0.108084 ms MarkObjects: 2.476291 ms  DeleteObjects: 0.656458 ms)
+Unloading 6544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (2.1 MB). Loaded Objects now: 7173.
+Memory consumption went from 256.9 MB to 254.9 MB.
+Total: 3.469292 ms (FindLiveObjects: 0.177666 ms CreateObjectMapping: 0.104250 ms MarkObjects: 2.454209 ms  DeleteObjects: 0.732875 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -482,35 +386,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 4.69 ms, found 11 plugins.
+Begin MonoManager ReloadAssembly
+Thread 0x17f593000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.277 seconds
+Refreshing native plugins compatible for Editor in 5.35 ms, found 11 plugins.
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.596 seconds
+Domain Reload Profiling: 873ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (156ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (596ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (345ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 5.11 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.16 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9 unused Assets / (2.0 MB). Loaded Objects now: 7248.
-Memory consumption went from 142.2 MB to 140.2 MB.
-Total: 5.561250 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.092291 ms MarkObjects: 4.661709 ms  DeleteObjects: 0.564458 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.55 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9 unused Assets / (2.0 MB). Loaded Objects now: 7248.
-Memory consumption went from 142.1 MB to 140.1 MB.
-Total: 3.695375 ms (FindLiveObjects: 0.233041 ms CreateObjectMapping: 0.112500 ms MarkObjects: 2.663334 ms  DeleteObjects: 0.686083 ms)
+Unloading 6544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (2.1 MB). Loaded Objects now: 7178.
+Memory consumption went from 267.3 MB to 265.2 MB.
+Total: 3.374125 ms (FindLiveObjects: 0.190708 ms CreateObjectMapping: 0.111584 ms MarkObjects: 2.381667 ms  DeleteObjects: 0.689708 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -528,32 +461,45 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2833.934671 seconds.
-  path: Assets/Samples/XR Hands/1.3.0/HandVisualizer/Models/RightHand.fbx
-  artifactKey: Guid(56186ccf27ad7864681108ed88349071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.3.0/HandVisualizer/Models/RightHand.fbx using Guid(56186ccf27ad7864681108ed88349071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9258ea121d518920a91c537becdc690') in 0.653532 seconds
+  Time since last request: 1378586.372065 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(951318501d1754042b860a159d080a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(951318501d1754042b860a159d080a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f656db6996375c9b9850ad4c2654d4ca') in 0.006772 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 81
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.78 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9 unused Assets / (2.0 MB). Loaded Objects now: 7305.
-Memory consumption went from 145.3 MB to 143.2 MB.
-Total: 3.788208 ms (FindLiveObjects: 0.175375 ms CreateObjectMapping: 0.090667 ms MarkObjects: 2.903458 ms  DeleteObjects: 0.618250 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Rounded Radius - 4px.png
+  artifactKey: Guid(df3b17ab68da00343a77bebb0c295407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/ARDemoSceneAssets/Sprites/Button - Rounded Radius - 4px.png using Guid(df3b17ab68da00343a77bebb0c295407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da30dc20163d7a3f0ea976b16ec2e0a1') in 0.029987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Hands Interaction Demo/HandsDemoSceneAssets/AffordanceThemes/AudioAffordanceTheme.asset
+  artifactKey: Guid(57def9352cdee8548bfc9ebc6a55914a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Hands Interaction Demo/HandsDemoSceneAssets/AffordanceThemes/AudioAffordanceTheme.asset using Guid(57def9352cdee8548bfc9ebc6a55914a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8b33db68e4960374e2b922a7c8eace') in 0.002091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Asset.png
+  artifactKey: Guid(17d565bb4a7744b41b7e4dc7e3a09e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Asset.png using Guid(17d565bb4a7744b41b7e4dc7e3a09e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6f3d48d91f8fab805280817d406c45') in 0.005198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.276973 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef
+  artifactKey: Guid(81e756a21b3040f409b20a09c888ef3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef using Guid(81e756a21b3040f409b20a09c888ef3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f77409a5e3ce03e66da1aa17ed09472') in 0.000213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

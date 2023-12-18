@@ -19,11 +19,15 @@ public class OSC_Manager : MonoBehaviour
     [SerializeField] 
     private Button ButtonL1O;
 
+    [SerializeField]
+    private Scrollbar ScrollbarL1V;
+
     //need to initialize empty variables to be sent as messages(?)
     /*private object stop;
     private object play;
     private object record;
-    private object overdub;*/
+    private object overdub;
+    private object volume*/
 
     // Use this for initialization
     void Start()
