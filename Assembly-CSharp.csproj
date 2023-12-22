@@ -58,6 +58,7 @@
     <Compile Include="Assets/Scripts/OSC_Manager.cs" />
     <Compile Include="Assets/AnimateHandOnInput.cs" />
     <Compile Include="Assets/Scripts/OSC/OSC.cs" />
+    <Compile Include="Assets/TempoScrollbarScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

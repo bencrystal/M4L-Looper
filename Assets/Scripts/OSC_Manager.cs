@@ -38,6 +38,12 @@ public class OSC_Manager : MonoBehaviour
     [SerializeField]
     private Scrollbar ScrollbarL2V;
 
+    [SerializeField]
+    private Scrollbar tempoSelector; //tempo selector sends 60-180
+
+    [SerializeField]
+    private Button ButtonMetronome; //metronome toggle sends 0
+
     //need to initialize empty variables to be sent as messages(?)
     /*private object stop;
     private object play;
@@ -62,6 +68,9 @@ public class OSC_Manager : MonoBehaviour
         ButtonL2P.onClick.AddListener(() => OnButtonPressed(ButtonL2P));
         ButtonL2O.onClick.AddListener(() => OnButtonPressed(ButtonL2O));
         ScrollbarL2V.onValueChanged.AddListener((val) => OnValueChanged(ScrollbarL2V, val));
+
+        ButtonMetronome.onClick.AddListener(() => OnButtonPressed(ButtonMetronome));
+        tempoSelector.onValueChanged.AddListener((val) => OnValueChanged(tempoSelector, val));
         //osc.SetAddressHandler("/looper1", OnButtonPressed);
 
        
@@ -136,6 +145,12 @@ public class OSC_Manager : MonoBehaviour
                 //message.values.Add(overdub);
                 break;
 
+                case "ButtonMetronome":
+                message.address = "/settings";
+                message.values.Add(0);
+                Debug.Log("METRONOME BUTTON PRESSED");
+                break;
+
                 default:
                 break;
             }
@@ -169,41 +184,38 @@ public class OSC_Manager : MonoBehaviour
                 case "Scrollbar_L1V":
                 message.address = "/looper1";
                 message.values.Add(val); //make sure to clamp from 0-.85(?), and this way 0 will also stop the track?
-                //message.values.Add(stop);
-                //message.values.Add(1);
                 Debug.Log("Scrollbar L1V was " + val);
                 break;
     
                 case "Scrollbar_L2V":
                 message.address = "/looper2";
                 message.values.Add(val);
-                //message.values.Add(record);
                 Debug.Log("Scrollbar L2V was " + val);
                 break;
         /*
                 case "Scrollbar_L3V":
                 message.address = "/looper3";
                 message.values.Add(val);
-                //message.values.Add(play);
                 Debug.Log("Scrollbar L3V was " + val);
                 break;
 
                 case "Scrollbar_L4V":
                 message.address = "/looper4";
                 message.values.Add(val);
-                //message.values.Add(overdub);
                 Debug.Log("Scrollbar L4V was " + val);
                 break;
     */
+
+                case "Tempo Selector":
+                message.address = "/settings";
+                message.values.Add(Mathf.RoundToInt(val * 120 + 60));
+                Debug.Log("Tempo Selector was " + (val * 120 + 60));
+                break;
                 default:
                 break;
             }
-            
-            //message.values.Add(0);
 
             osc.Send(message);
-
-            //Debug.Log(buttonPressed + " was pressed");
 
             //send message to Ableton
             
@@ -213,53 +225,3 @@ public class OSC_Manager : MonoBehaviour
 
 }
 
-
-
-
-
-/*
-    void OnReceiveXYZ(OscMessage message)
-    {
-        float x = message.GetFloat(0);
-        float y = message.GetFloat(1);
-        float z = message.GetFloat(2);
-
-        transform.position = new Vector3(x, y, z);
-    }
-
-    void OnReceiveX(OscMessage message)
-    {
-        float x = message.GetFloat(0);
-
-        Vector3 position = transform.position;
-
-        position.x = x;
-
-        transform.position = position;
-    }
-
-    void OnReceiveY(OscMessage message)
-    {
-        float y = message.GetFloat(0);
-
-        Vector3 position = transform.position;
-
-        position.y = y;
-
-        transform.position = position;
-    }
-
-    void OnReceiveZ(OscMessage message)
-    {
-        float z = message.GetFloat(0);
-
-        Vector3 position = transform.position;
-
-        position.z = z;
-
-        transform.position = position;
-    }
-
-
-}
-*/
