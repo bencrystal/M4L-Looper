@@ -44,6 +44,14 @@ public class OSC_Manager : MonoBehaviour
     [SerializeField]
     private Button ButtonMetronome; //metronome toggle sends 0
 
+    private bool metronomeIsOn = false;
+
+
+
+    private Color defaultColor = Color.white;
+
+    private Color metronomeOrange = new Color(0.964f, 0.78f, 0.36f);
+
     //need to initialize empty variables to be sent as messages(?)
     /*private object stop;
     private object play;
@@ -73,7 +81,22 @@ public class OSC_Manager : MonoBehaviour
         tempoSelector.onValueChanged.AddListener((val) => OnValueChanged(tempoSelector, val));
         //osc.SetAddressHandler("/looper1", OnButtonPressed);
 
-       
+
+
+/*
+        bMetronomeColor = ButtonMetronome.GetComponent<Image>().color;
+
+        bL1SColor = ButtonL1S.GetComponent<Image>().color;
+        bL1RColor = ButtonL1R.GetComponent<Image>().color;
+        bL1PColor = ButtonL1P.GetComponent<Image>().color;
+        bL1OColor = ButtonL1O.GetComponent<Image>().color;
+
+        bL2SColor = ButtonL2S.GetComponent<Image>().color;
+        bL2RColor = ButtonL2R.GetComponent<Image>().color;
+        bL2PColor = ButtonL2P.GetComponent<Image>().color;
+        bL2OColor = ButtonL2O.GetComponent<Image>().color;
+       */
+
     }
 
     // Update is called once per frame
@@ -91,6 +114,9 @@ public class OSC_Manager : MonoBehaviour
             Debug.Log(buttonPressed.name);
             //underscores are necessary for distinguishing buttons in scene from script references
             //osc.add.values seem to be of a type that can take strings
+
+
+
             switch(buttonPressed.name)
             {
                 case "Button_L1S":
@@ -98,25 +124,52 @@ public class OSC_Manager : MonoBehaviour
                 message.values.Add(0);
                 //message.values.Add(stop);
                 //message.values.Add(1);
-                Debug.Log("ButtonL1S!!!");
+                //Debug.Log("ButtonL1S!!!");
+
+                //make sure state of other buttons is unclicked and make this the most recently clicked one with persistent button visual
+                 
+                ButtonL1S.GetComponent<Image>().color = Color.gray;;
+                ButtonL1R.GetComponent<Image>().color = defaultColor;
+                ButtonL1P.GetComponent<Image>().color = defaultColor;
+                ButtonL1O.GetComponent<Image>().color = defaultColor;
+                
+
                 break;
 
                 case "Button_L1R":
                 message.address = "/looper1";
                 message.values.Add(1);
                 //message.values.Add(record);
+
+                ButtonL1S.GetComponent<Image>().color = defaultColor;
+                ButtonL1R.GetComponent<Image>().color = Color.red;
+                ButtonL1P.GetComponent<Image>().color = defaultColor;
+                ButtonL1O.GetComponent<Image>().color = defaultColor;
+
                 break;
 
                 case "Button_L1P":
                 message.address = "/looper1";
                 message.values.Add(2);
                 //message.values.Add(play);
+
+                ButtonL1S.GetComponent<Image>().color = defaultColor;
+                ButtonL1R.GetComponent<Image>().color = defaultColor;
+                ButtonL1P.GetComponent<Image>().color = Color.green;
+                ButtonL1O.GetComponent<Image>().color = defaultColor;
+
                 break;
 
                 case "Button_L1O":
                 message.address = "/looper1";
                 message.values.Add(3);
                 //message.values.Add(overdub);
+
+                ButtonL1S.GetComponent<Image>().color = defaultColor;
+                ButtonL1R.GetComponent<Image>().color = defaultColor;
+                ButtonL1P.GetComponent<Image>().color = defaultColor;
+                ButtonL1O.GetComponent<Image>().color = Color.cyan;
+
                 break;
 
                 case "Button_L2S":
@@ -124,31 +177,69 @@ public class OSC_Manager : MonoBehaviour
                 message.values.Add(0);
                 //message.values.Add(stop);
                 //message.values.Add(1);
-                Debug.Log("ButtonL1S!!!");
+                //Debug.Log("ButtonL1S!!!");
+
+                ButtonL2S.GetComponent<Image>().color = Color.gray;;
+                ButtonL2R.GetComponent<Image>().color = defaultColor;
+                ButtonL2P.GetComponent<Image>().color = defaultColor;
+                ButtonL2O.GetComponent<Image>().color = defaultColor;
+
                 break;
 
                 case "Button_L2R":
                 message.address = "/looper2";
                 message.values.Add(1);
                 //message.values.Add(record);
+
+                ButtonL2S.GetComponent<Image>().color = defaultColor;
+                ButtonL2R.GetComponent<Image>().color = Color.red;
+                ButtonL2P.GetComponent<Image>().color = defaultColor;
+                ButtonL2O.GetComponent<Image>().color = defaultColor;
+
                 break;
 
                 case "Button_L2P":
                 message.address = "/looper2";
                 message.values.Add(2);
                 //message.values.Add(play);
+
+                ButtonL2S.GetComponent<Image>().color = defaultColor;;
+                ButtonL2R.GetComponent<Image>().color = defaultColor;
+                ButtonL2P.GetComponent<Image>().color = Color.green;
+                ButtonL2O.GetComponent<Image>().color = defaultColor;
+                
                 break;
 
                 case "Button_L2O":
                 message.address = "/looper2";
                 message.values.Add(3);
                 //message.values.Add(overdub);
+
+                ButtonL2S.GetComponent<Image>().color = defaultColor;;
+                ButtonL2R.GetComponent<Image>().color = defaultColor;
+                ButtonL2P.GetComponent<Image>().color = defaultColor;
+                ButtonL2O.GetComponent<Image>().color = Color.cyan;
+
                 break;
 
                 case "ButtonMetronome":
                 message.address = "/settings";
                 message.values.Add(0);
                 Debug.Log("METRONOME BUTTON PRESSED");
+
+                metronomeIsOn = !metronomeIsOn;
+
+                if (metronomeIsOn)
+                {
+                    ButtonMetronome.GetComponent<Image>().color = metronomeOrange;
+                }
+                    
+                else 
+                {
+                    ButtonMetronome.GetComponent<Image>().color = defaultColor;
+                }
+                    
+
                 break;
 
                 default:
